@@ -1,0 +1,6 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+
+#wpadminbar #wp-admin-bar-vs-toolbar-menu .ab-icon:before {
+	content: "\f115";
+	top: 3px;
+}

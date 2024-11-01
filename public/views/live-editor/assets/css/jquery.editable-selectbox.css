@@ -1,0 +1,32 @@
+.field-combobox-wrapper {
+	position:relative;
+	background-color:white;
+	border:none;
+	width:180px;
+	height:24px;
+}
+.field-combobox-wrapper select {
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:12px;
+	border:none;
+	width:180px;
+	height:24px;
+	margin:0;
+	cursor: pointer;
+}
+
+.field-combobox-wrapper input[type=text] {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:160px;
+	height:24px;
+	padding:0px 5px;
+	font-size:12px;
+	border:none;
+}
+.field-combobox-wrapper select:focus, .field-combobox-wrapper input[type=text]:focus {
+	outline:none;
+}
